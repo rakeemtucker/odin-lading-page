@@ -1,0 +1,157 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header, .footer {
+    background-color: #1f2937;
+}
+
+.header h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+    flex-wrap: nowrap;
+
+}
+
+h4 {
+    text-align: center;
+    padding: 32px;
+    font-size: 18px;
+}
+
+.header h3 {
+    font-size: 24px;
+    color: #f9faf8;
+    
+}
+
+.header {
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    
+}
+img {
+   
+}
+.hero-block {
+    display: flex;
+    gap: 2.5em;
+    padding: 32px;
+}
+div img {
+    text-align: right;
+    width: 25em;
+    height: 15em;
+    border-radius: 8px;
+    gap: 1.5em;
+   
+}
+.header, .heromain{
+    display: flex;
+    justify-content: space-between;
+    padding: 32px;
+}
+
+.herosecond {
+    color: #f9faf8;
+    max-width: 25em;    
+    
+}
+
+
+.footer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 72px;
+    color: #f9faf8;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+a {
+    font-size: 18px;
+    color: #f9faf8;
+    padding: 0;
+    text-decoration: none;
+    margin-left: 15px;
+    
+    
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1f2937;
+    padding: 90px;
+    margin: 0;
+    font-style: light italic;
+       
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    padding: 90px;
+    color: #1f2937;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+
+}
+
+.container img {
+    max-width: 10em;   
+    height: auto;
+    border-radius: 8px;
+    text-align: center;
+    justify-content: center;
+}
+
+.action-block {
+    background-color: #3882F6;
+    margin: 48px 64px;
+    border-radius: 8px;
+    padding: 36px 64px;
+    display: flex;
+    justify-content: space-between;
+    color: #f9faf8;
+    
+}
+
+
+
+button {
+    background-color: #3882F6;
+    color: #f9faf8;
+    border-radius: 8px;
+    border: none;
+    margin-top: 8px;
+    padding: 4px 16px;
+    
+
+}
+
+
+.action-button {
+    border: 1px solid #f9faf8;
+    
+}
+.card {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    color: #1f2937;
+    border: 1px;
+    border-radius: 8px;
+
+}
